@@ -6,7 +6,9 @@ window.vm = new Mvvm({
         message: 'hell world',
         h2: 'hell h2',
         obj: {
-            a: 'i am a',
+            a: {
+                c: 'ss'
+            },
             b: 'i am b'
         }
     }
