@@ -4,12 +4,11 @@ window.vm = new Mvvm({
     el: '#app',
     data: {
         message: 'hell world',
-        h2: 'hell h2',
         obj: {
             a: {
-                c: 'ss'
+                c: 'i am obj.a.c'
             },
-            b: 'i am b'
+            b: 'i am obj.b'
         }
     }
 })

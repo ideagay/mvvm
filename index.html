@@ -7,14 +7,12 @@
 </head>
 <body>
     <div id="app">
+        <input type="text" v-model="message">
+        <input type="text" v-model="obj.b">
         <h1>{{message}}</h1>
-        <h2>{{h2}}</h2>
-        <p>{{obj.a.c}}</p>
         <p>{{obj.b}}</p>
-        <div>
-            {{message}}
-            <p>{{obj.a.c}}</p>
-        </div>
+        <p>{{obj.a.c}}</p>
+        <p>{{obj.c}}</p>
         <h3>{{obj.a.e}}</h3>
     </div>
 </body>
